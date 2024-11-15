@@ -1,0 +1,67 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+}
+
+.container {
+  width: 850px;
+  margin: 0 auto;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.title {
+  font-size: 60px;
+  font-weight: bolder;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.desc {
+  color: #6C727E;
+  text-align: center;
+  line-height: 1.5;
+  font-size: 25px;
+}
+
+form {
+  background-color: #fff;
+  box-shadow: rgba(149, 157, 165, 0.4) 0px 8px 24px;
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  padding: 40px;
+  border-radius: 20px;
+}
+form input {
+  background-color: #F9FAFC;
+  text-align: center;
+  padding: 15px;
+  border: 1px solid #787a80;
+  border-radius: 10px;
+  color: #394050;
+  margin-bottom: 20px;
+  height: 50px;
+}
+form button {
+  height: 50px;
+  font-size: 15px;
+  color: #fff;
+  background-color: #294CCE;
+  border: none;
+  border-radius: 10px;
+  padding: 15px;
+}
+form span {
+  text-align: center;
+  color: #6C727E;
+}/*# sourceMappingURL=style.css.map */
